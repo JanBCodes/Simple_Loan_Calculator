@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+    <title>Simple Loan Calculator</title>
+</head>
+<body>
+    <main>
+        <h1>
+            Simple Loan Calculator:
+        </h1>
+        <form>
+            <div>
+                <label for="loan_amt">
+                    Loan Amount:
+                </label>
+                <input type="text" placeholder="Enter Loan Amount" id="loan_amt">
+            </div>
+            <div>
+                <label for="int_rate">
+                    Annual Interest Rate:
+                </label>
+                <input type="text" placeholder="Enter Interest Rate (%)" id="int_rate">
+            </div>
+            <div>
+                <label for="loan_term">
+                    Loan Term:
+                </label>
+                <input type="text" placeholder="Enter Loan Term (years)" id="loan_term">
+            </div>
+            <div>
+                <button type="reset" id="cal_button"> Calculate </button>
+            </div>
+        </form>
+        <ul>
+            <li id="results1"></li>
+            <li id="results2"></li>
+            <li id="results3"></li>
+            <li id="results4"></li>
+        </ul>
+    </main>
+    <script src="/FSD103/FSD103 _Lab_1/Q1/js/app.js"></script>
+</body>
+</html>
